@@ -1,0 +1,17 @@
+title: write-an-npx-script
+tagline: A brand new course on Learning Lab
+description: Do it
+template:
+  repo: write-an-npx-script-template
+  name: write-an-npx-script
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
